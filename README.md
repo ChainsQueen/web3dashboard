@@ -8,8 +8,16 @@ A modern, responsive Web3 dashboard interface focused on usability and visual cl
 ![Web3 Dashboard Screenshot](public/img/web3dashboard2.png)
 
 
+## 🚀 Live Demo
+
+[![Live Demo](https://img.shields.io/badge/Live-Demo-0a84ff?style=for-the-badge)](https://chainsqueeneth.github.io/web3dashboard/)
+
+Direct link: https://chainsqueeneth.github.io/web3dashboard/
+
+
 ## 📚 Table of Contents
 
+- [🚀 Live Demo](#-live-demo)
 - [🎨 Design Highlights](#-design-highlights)
 - [🛠️ Tech Stack](#️-tech-stack)
 - [✨ Key Features](#-key-features)
