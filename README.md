@@ -8,6 +8,21 @@ A modern, responsive Web3 dashboard interface focused on usability and visual cl
 ![Web3 Dashboard Screenshot](public/img/web3dashboard2.png)
 
 
+## 📚 Table of Contents
+
+- [🎨 Design Highlights](#-design-highlights)
+- [🛠️ Tech Stack](#️-tech-stack)
+- [✨ Key Features](#-key-features)
+- [🧭 Project Structure (Flowchart)](#-project-structure-flowchart)
+- [🧑‍💻 Development Notes](#-development-notes)
+- [🧪 Testing](#-testing)
+- [🧰 Global Tailwind Utilities](#-global-tailwind-utilities)
+- [🚀 Getting Started](#-getting-started)
+- [🔢 Versions](#-versions)
+- [🎯 Design Decisions](#-design-decisions)
+- [🖥️ Browser Support](#️-browser-support)
+- [📦 Deployment (GitHub Pages)](#-deployment-github-pages)
+
 ## 🎨 Design Highlights
 
 ### Visual Design
@@ -16,12 +31,16 @@ A modern, responsive Web3 dashboard interface focused on usability and visual cl
 - **Micro‑interactions** and smooth animations
 - **Custom UI components** with consistent styling
 
-### Technical Implementation
-- **Next.js 15 (App Router)**
-- **React 19** + **TypeScript 5**
-- **Tailwind CSS 4** with global utility classes in `src/styles/globals.css`
-- **Framer Motion 12** for animations
-- **Radix UI** primitives (Tabs, Tooltip)
+## 🛠️ Tech Stack
+
+- **Framework**: Next.js 15 (App Router)
+- **Runtime**: React 19 + TypeScript 5
+- **Styling**: Tailwind CSS 4 (global utilities in `src/styles/globals.css`)
+- **Animations**: Framer Motion 12
+- **UI Primitives**: Radix UI (Tabs, Tooltip)
+- **Icons**: Lucide Icons
+- **Font**: Geist (via `next/font`)
+- **State Management**: React Context (lightweight)
 
 ## ✨ Key Features
 
@@ -32,16 +51,6 @@ A modern, responsive Web3 dashboard interface focused on usability and visual cl
 - **Tabs** to switch between “Trending NFTs” and “Top Tokens”
 - **Animated butterfly** decoration
 - **Accessible** UI patterns and keyboard‑focus styles
-
-## 🛠️ Technical Stack
-
-- **Framework**: Next.js 13+ with App Router
-- **Styling**: Tailwind CSS
-- **Animations**: Framer Motion
-- **State Management**: React Context
-- **Type Safety**: TypeScript
-- **Icons**: Lucide Icons
-- **Font**: Geist (optimized with next/font)
 
 ## 🧭 Project Structure (Flowchart)
 
@@ -179,11 +188,36 @@ Common, reusable styles are defined in `src/styles/globals.css` to reduce repeat
    ```
 
 3. Run the development server
-   ```bash
-   pnpm dev
-   ```
+```bash
+pnpm dev
+```
 
 4. Open [http://localhost:3000](http://localhost:3000) in your browser
+
+## 🔢 Versions
+
+Exact versions from `package.json` for reproducibility:
+
+| Package | Version |
+| --- | --- |
+| next | 15.4.1 |
+| react | 19.1.0 |
+| react-dom | 19.1.0 |
+| typescript | ^5 |
+| tailwindcss | ^4.1.11 |
+| @tailwindcss/postcss | ^4 |
+| framer-motion | ^12.23.9 |
+| motion | ^12.23.6 |
+| @radix-ui/react-slot | ^1.2.3 |
+| @radix-ui/react-tabs | ^1.1.12 |
+| @radix-ui/react-tooltip | ^1.2.7 |
+| lucide-react | ^0.525.0 |
+| tailwind-merge | ^3.3.1 |
+| vitest | ^3.2.4 |
+| @testing-library/react | ^16.0.1 |
+| @testing-library/user-event | ^14.6.1 |
+| @testing-library/jest-dom | ^6.6.3 |
+| jsdom | ^26.1.0 |
 
 ## 🎯 Design Decisions
 
