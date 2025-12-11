@@ -1,6 +1,6 @@
-'use client';
+"use client";
 
-import Web3Dashboard from './dashboard';
+import Web3Dashboard from "./Dashboard";
 
 export default function Home() {
   return (
