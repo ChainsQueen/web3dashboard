@@ -2,6 +2,6 @@
 2:I[30744,["/web3dashboard/_next/static/chunks/dc6b5f8ffd81394b.js","/web3dashboard/_next/static/chunks/1cea88ab82d9f5f2.js"],"ViewportBoundary"]
 4:I[30744,["/web3dashboard/_next/static/chunks/dc6b5f8ffd81394b.js","/web3dashboard/_next/static/chunks/1cea88ab82d9f5f2.js"],"MetadataBoundary"]
 5:"$Sreact.suspense"
-0:{"buildId":"STPtW69gZWkMaOyB-Mxsj","rsc":["$","$1","h",{"children":[null,["$","$L2",null,{"children":"$@3"}],["$","div",null,{"hidden":true,"children":["$","$L4",null,{"children":["$","$5",null,{"name":"Next.Metadata","children":"$@6"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"loading":null,"isPartial":false}
+0:{"buildId":"k4RJYHbEIGu01PYDzCHzM","rsc":["$","$1","h",{"children":[null,["$","$L2",null,{"children":"$@3"}],["$","div",null,{"hidden":true,"children":["$","$L4",null,{"children":["$","$5",null,{"name":"Next.Metadata","children":"$@6"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"loading":null,"isPartial":false}
 3:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
 6:[["$","title","0",{"children":"Web3 Dashboard"}],["$","meta","1",{"name":"description","content":"A modern, responsive Web3 dashboard interface for blockchain and cryptocurrency contexts"}]]
