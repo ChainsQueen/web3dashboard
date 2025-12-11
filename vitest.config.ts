@@ -23,14 +23,6 @@ export default defineConfig({
     isolate: true,
     clearMocks: true,
     restoreMocks: true,
-    pool: 'threads',
-    // Vitest v3: configure thread limits under poolOptions.threads
-    poolOptions: {
-      threads: {
-        maxThreads: process.env.CI ? 2 : undefined, // keep CI stable on small runners
-        minThreads: 1,
-      },
-    },
 
     // Output & DX
     reporters: process.env.CI ? ['dot'] : ['default'],
@@ -41,8 +33,24 @@ export default defineConfig({
     coverage: {
       provider: 'v8',
       reportsDirectory: './coverage',
-      reporter: ['text', 'html'],
+      reporter: ['text', 'json', 'html'],
       enabled: false,
+      exclude: [
+        'node_modules/',
+        'dist/',
+        '**/*.config.ts',
+        '**/*.config.js',
+        'e2e/',
+        '.next/',
+        'out/',
+        'coverage/',
+      ],
+      thresholds: {
+        lines: 80,
+        functions: 80,
+        branches: 80,
+        statements: 80,
+      },
     },
   },
 });
