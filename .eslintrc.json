@@ -1,0 +1,21 @@
+{
+  "extends": ["next/core-web-vitals"],
+  "ignorePatterns": ["out/**", ".next/**", "dist/**", "coverage/**", "node_modules/**"],
+  "overrides": [
+    {
+      "files": ["**/*.test.ts", "**/*.test.tsx", "**/*.spec.ts", "**/*.spec.tsx"],
+      "rules": {
+        "@typescript-eslint/no-explicit-any": "off",
+        "@typescript-eslint/no-unused-vars": [
+          "warn",
+          {
+            "argsIgnorePattern": "^_",
+            "varsIgnorePattern": "^_"
+          }
+        ],
+        "react/display-name": "off",
+        "jsx-a11y/alt-text": "off"
+      }
+    }
+  ]
+}
